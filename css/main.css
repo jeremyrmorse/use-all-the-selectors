@@ -19,7 +19,7 @@
 }
 
 .wrapper {
-  background-color: #eee8d5
+  background-color: #eee8d5;
 }
 
 .contents {
@@ -27,7 +27,7 @@
 }
 
 .favs {
-  color: #93a1a1
+  color: #93a1a1;
 }
 
 .facts {
@@ -36,4 +36,12 @@
 
 .types {
   color: #93a1a1;
+}
+
+wrapper > dfn {
+  background-color: #b58900
+}
+
+a:not(.no-highlight) {
+  background-color: #719e07;
 }
