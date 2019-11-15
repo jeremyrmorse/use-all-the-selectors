@@ -39,9 +39,17 @@
 }
 
 wrapper > dfn {
-  background-color: #b58900
+  background-color: #b58900;
 }
 
 a:not(.no-highlight) {
   background-color: #719e07;
+}
+
+ol > li {
+  color: #719e47;
+}
+
+ol > li {
+  color: #2aa198;
 }
