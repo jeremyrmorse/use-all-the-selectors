@@ -26,6 +26,12 @@ p + strong {
   color: #fff
 }
 
+[rel="external"] {
+  background-color: #2694d8;
+}
+
+
+
 .contents {
   color: #93a1a1;
 }
@@ -50,10 +56,18 @@ a:not(.no-highlight) {
   background-color: #719e07;
 }
 
-ol > li {
+ol:first-child {
   color: #719e47;
 }
 
-ol > li {
+ol:last-child {
   color: #2aa198;
+}
+
+ul:nth-child(odd) {
+  background-color: #657ba3;
+}
+
+ul:nth-child(even) {
+  background-color: #586e75;
 }
