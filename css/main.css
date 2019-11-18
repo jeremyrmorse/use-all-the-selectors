@@ -22,40 +22,24 @@ ul + nav {
   color: #93a1a1;
 }
 
-p + strong {
-  color: #fff;
-}
-
 .wrapper > .dfn {
   background: #b58900;
 }
 
+p + strong {
+  color: #fff;
+}
+
+li a {
+  background-color: #719e07;
+}
+
+.no-highlight {
+  background-color: #719e07;
+}
+
 [rel="external"] {
   background-color: #2694d8;
-}
-
-.contents {
-  color: #93a1a1;
-}
-
-.favs {
-  color: #93a1a1;
-}
-
-.facts {
-  color: #93a1a1;
-}
-
-.types {
-  color: #93a1a1;
-}
-
-.wrapper > dfn {
-  background-color: #b58900;
-}
-
-a:not(.no-highlight) {
-  background-color: #719e07;
 }
 
 ol:first-child {
