@@ -1,16 +1,12 @@
-.body {
+html body {
   background-color: #fdf6e3;
 }
 
-.header {
+header, footer {
   font-size: 1.5rem;
 }
 
-.footer {
-  font-size: 1.5rem;
-}
-
-.ul {
+ul + nav {
   font-family: sans-serif;
 }
 
@@ -22,8 +18,16 @@
   background-color: #eee8d5;
 }
 
+#contents, #favs, #facts, #types {
+  color: #93a1a1;
+}
+
 p + strong {
   color: #fff;
+}
+
+.wrapper > .dfn {
+  background: #b58900;
 }
 
 [rel="external"] {
