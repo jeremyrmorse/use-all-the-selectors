@@ -23,14 +23,12 @@
 }
 
 p + strong {
-  color: #fff
+  color: #fff;
 }
 
 [rel="external"] {
   background-color: #2694d8;
 }
-
-
 
 .contents {
   color: #93a1a1;
